@@ -360,106 +360,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Ice Lake-LP Processor Host Bridge/DRAM Registers</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP USB 3.1 xHCI Host Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>RAM memory</string>
-				<key>model</key>
-				<string>Ice Lake-LP DRAM Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Serial bus controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP Serial IO I2C Controller #0</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Serial bus controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP Serial IO I2C Controller #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Communication controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP Management Engine</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>compatible</key>
-				<string>pci8086,a182</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP SATA Controller [AHCI mode]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Ice Lake-LP PCI Express Root Port #9</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device-id</key>
-				<data>
-				BqgAAA==
-				</data>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>Apple NVME SSD</string>
-				<key>vendor-id</key>
-				<data>
-				TRQAAA==
-				</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>Ice Lake-LP LPC/eSPI Controller</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -474,24 +374,6 @@
 				</data>
 				<key>model</key>
 				<string>Ice Lake-LP Smart Sound Technology Audio Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>Ice Lake-LP SMBus Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Serial bus controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP SPI Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -535,15 +417,6 @@
 				</data>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Signal processing controller</string>
-				<key>model</key>
-				<string>Ice Lake-LP Processor Power and Thermal Controller</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1250,7 +1123,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
@@ -1320,7 +1193,7 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1810,7 +1683,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-keepsyms=1 alcid=20 -igfxblr -noDC9 -vi2c-force-polling</string>
+				<string>-v -keepsyms=1 alcid=20 -igfxblr -noDC9 -igfxcdc -igfxdvmt brcmfx-country=#a brcmfx-aspm=0 -vi2c-force-polling forceRenderStandby=0 revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
@@ -1907,16 +1780,16 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>YOUR DATA</string>
+			<string>C02CV0J4ML7H</string>
 			<key>SystemUUID</key>
-			<string>YOUR DATA</string>
+			<string>47C64341-24D4-4FC7-B9C1-1F7A5E768D1B</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>YOUR DATA</string>
+			<string>C02024701GUP8PGJC</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1932,9 +1805,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>YOUR DATA</string>
+			<string>C02CV0J4ML7H</string>
 			<key>SystemUUID</key>
-			<string>YOUR DATA</string>
+			<string>47C64341-24D4-4FC7-B9C1-1F7A5E768D1B</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1974,7 +1847,7 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-5F9802EFE386AA28</string>
+			<string>YOUR DATA</string>
 			<key>BoardSerialNumber</key>
 			<string>YOUR DATA</string>
 			<key>BoardType</key>
@@ -1990,7 +1863,7 @@
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-5F9802EFE386AA28</string>
+			<string>YOUR DATA</string>
 			<key>FirmwareFeatures</key>
 			<data>
 			bvCv/wgAAAA=
@@ -2017,7 +1890,7 @@
 			<key>SystemSerialNumber</key>
 			<string>YOUR DATA</string>
 			<key>SystemUUID</key>
-			<string>YOUR DATA</string>
+			<string>47C64341-24D4-4FC7-B9C1-1F7A5E768D1B</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
