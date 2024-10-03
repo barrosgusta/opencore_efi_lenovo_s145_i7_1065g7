@@ -1,6 +1,6 @@
 # Lenovo S145 I7-1065G7 OpenCore Bootloader
 
-### OpenCore Version: 0.9.7
+### OpenCore Version: 1.0.1
 ## Change the Platforminfo serials to your own generated serials!
 
 ## What is working:
@@ -12,6 +12,6 @@
 
 ## What isn't working or is but with some problems
 - Touchpad is working but it dies when goes to sleep
-- Sleep (not working on macOS Sonoma)
-- Webcam
+- Sleep (not working on macOS Sonoma. Sequoia not tested)
+- Webcam (Works on Big Sur)
  
