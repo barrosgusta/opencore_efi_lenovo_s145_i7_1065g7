@@ -1,17 +1,20 @@
 # Lenovo S145 I7-1065G7 OpenCore Bootloader
 
-### OpenCore Version: 0.9.7
+### OpenCore Version: 1.0.2
+
 ## Change the Platforminfo serials to your own generated serials!
 
 ## What is working:
+
 - Wifi/Bluetooth/Hand-off with the fenvi card
 - Graphics aceleration
 - Battery readings
 - Audio outputs and inputs
 - All the USB ports
+- Touchpad
+- Sleep (not working on macOS Sequoia)
 
 ## What isn't working or is but with some problems
-- Touchpad is working but it dies when goes to sleep
-- Sleep (not working on macOS Sonoma)
-- Webcam
- 
+
+- SD Card reader (not tested)
+- Webcam (Works setting to 240p with Many Cam app)
