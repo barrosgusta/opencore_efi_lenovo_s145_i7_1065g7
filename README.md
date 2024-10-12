@@ -17,4 +17,4 @@
 ## What isn't working or is but with some problems
 
 - SD Card reader (not tested)
-- Webcam (Works setting to 240p with Many Cam app)
+- Webcam (It works setting the resolution to 240p with Many Cam app)
