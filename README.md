@@ -12,7 +12,7 @@
 - Audio outputs and inputs
 - All the USB ports
 - Touchpad
-- Sleep (not working on macOS Sequoia)
+- Sleep (not tested on macOS Sequoia)
 
 ## What isn't working or is but with some problems
 
