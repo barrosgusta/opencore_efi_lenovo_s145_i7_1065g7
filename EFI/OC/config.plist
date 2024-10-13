@@ -1645,13 +1645,15 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v -keepsyms=1 alcid=20 -igfxblr -noDC9 -igfxcdc -igfxdvmt brcmfx-country=#a brcmfx-aspm=0 -vi2c-force-polling forceRenderStandby=0 revpatch=sbvmm</string>
+				<string>-noDC9</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
 				</data>
 				<key>prev-lang:kbd</key>
-				<string>pt-BR:71</string>
+				<data>
+				cHQtQlI6MTI4
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
